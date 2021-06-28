@@ -1,0 +1,202 @@
+/***** BASE STYLES *****/
+
+body {
+    background-color: #1f202b;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+.half-width {
+    width: 600px;
+}
+.third-width {
+    width: 400px;
+}
+h3 {
+    color: #fa0075;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 42px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    text-align: center;
+}
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+h5 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/***** HEADER *****/
+
+#sticky {
+    background-color: #1f202b;
+    position: sticky;
+    top: 0;
+}
+h1 {
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: lighter;
+}
+.bar {
+    color: #fa0075;
+}
+.nav {
+    float: right;
+    width: 600px;
+}
+nav ul li {
+    border-left: 1px solid #fa0075;
+    display: inline;
+    float: right;
+}
+nav ul li a {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+.tagline {
+    background-image: url('../img/hero-background.png');
+    background-position: center;
+    background-size: cover;
+    height: 790px;
+}
+h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 71px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 320px;
+    width: 600px;
+}
+.tag {
+    color: #fa0075;
+}
+
+
+/***** MAIN - WORK*****/
+
+#work {
+    height: 1585px;
+}
+.project {
+    padding: 20px 15px;
+}
+#work .half-width img {
+    float: left;
+}
+.description {
+    float: right;
+}
+.description h4 {
+    margin-top: 0;
+    padding-left: 55px;
+}
+.subtitle {
+    font-size: 18px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.description p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    padding-left: 55px;
+    padding-right: 50px;
+}
+#jubilee-text {
+    float: left;
+}
+#jubilee-text h4 {
+    padding-right: 55px;
+    text-align: right;
+}
+#jubilee-text p {
+    text-align: right;
+}
+.jubilee-image img {
+    float: right;
+}
+#work .project {
+    padding-bottom: 90px;
+}
+
+
+/***** ABOUT *****/
+
+#about {
+    background-image: url('../img/about-me.png');
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    padding-bottom: 50px;
+    overflow: auto;
+}
+#about h5 {
+    color: #1f202b;
+    font-size: 24px;
+    font-weight: bold;
+}
+#about p {
+    color: #1f202b;
+    font-size: 20px;
+}
+
+
+/***** CONTACT *****/
+
+#contact {
+    height: 380px;
+    overflow: auto;
+}
+#contact .third-width {
+    float: left;
+    text-align: center;
+}
+#contact p {
+    font-size: 20px;
+}
+#contact img {
+    padding: 0 20px 0 20px;
+}
+#contact a {
+    color: white;
+    text-decoration: none;
+}
+#contact h5 {
+    margin-bottom: 25px;
+}
+.details {
+    padding-top: 7px;
+}
+#contact h3 {
+    margin-bottom: 20px;
+}
+
+
+/***** FOOTER *****/
+
+footer p {
+    clear: both;
+    text-align: center;
+}
